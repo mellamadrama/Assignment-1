@@ -18,6 +18,8 @@
     }
     a{color: rgb(0, 0, 0);
       font-family: 'Cormorant SC', serif;
+    }
+    u {
       padding-inline: 5%;
     }
     nav{
@@ -40,14 +42,87 @@
     }
 
     .members {
-      background-color: rgb(173, 173, 173);
+      background-color: rgb(128, 114, 151);
       width: 100%;
       padding: 0.5%;
     }
 
     hr {
       background: black;
-      height: 1px;
+      height: 2px;
+    }
+
+    * {box-sizing:border-box}
+
+   .slideshow-container {
+      max-width: 10000px;
+      position: relative;
+      margin: auto;
+    }
+
+    .mySlides {
+      display: none;
+    }
+
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+     width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+
+    a:hover {
+    color: rgb(96, 96, 96)!important;
+    }
+
+    h2:hover {
+    color: rgb(96, 96, 96)!important;
+    }
+
+    h3:hover {
+    color: rgb(96, 96, 96)!important;
     }
 
   </style>
@@ -56,30 +131,45 @@
 <body style="background-color:#f4f3ef;">
   <header>
       <br>
-      <a style="text-decoration:none" href="midzy.html"><h1><center>ITZY Fashion Finds</center></h1></a>
+      <h1><center>ITZY Fashion Finds</center></h1>
+      <a style="text-decoration:none" href="midzy.html"><h3><center>MIDZY</center></h3></a>
       <br>
       <hr/>
       <nav>
-        <a href="index.html"><u>- ITZY -</u></a>
+        <a href="index.html"><h3><u>- ITZY -</u></h3></a>
       </nav>
       <hr/>
   </header>
 
   <section>
     <div class="members">
-      <a style="text-decoration:none" href="itzy.html"><h3><center>- Members -</center></h3></a>
+      <a style="text-decoration:none" href="itzy.html"><h2><center>- Members -</center></h2></a>
     </div>
     <br>
-    <div class="row">
-      <div class="column">
-        <img src="index-image/yuna.jpg" alt="yuna" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="index-image/sneakers.jpeg" alt="sneakers" style="width:100%">
-      </div>
-      <div class="column">
-        <img src="index-image/danceprac.jpg" alt="itzydance" style="width:100%">
-      </div>
+
+    <div class="slideshow-container">
+
+     <div class="mySlides fade">
+       <img src="index-image/itzyheader.png" style="width:100%">
+     </div>
+
+     <div class="mySlides fade">
+       <img src="index-image/ITZY_Sneakers_all.jpg" style="width:100%">
+     </div>
+
+     <div class="mySlides fade">
+       <img src="index-image/FB_ITZY_Header.jpg" style="width:100%">
+     </div>
+
+     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+     <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <div style="text-align:center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
     <center>
@@ -91,6 +181,12 @@
       </div>
     </center>
   </section>
+
+  <footer>
+    <hr/>
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
