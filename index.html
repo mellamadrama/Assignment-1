@@ -26,17 +26,6 @@
       text-align: center;
     }
 
-    .column {
-      float: left;
-      width: 33.33%;
-    }
-
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
-
     .welcome {
       padding: 80px;
     }
@@ -125,6 +114,19 @@
     color: rgb(96, 96, 96)!important;
     }
 
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      text-align:center;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: inline-block;
+    }
+
   </style>
 </head>
 
@@ -184,6 +186,21 @@
 
   <footer>
     <hr/>
+    <h3><center>ITZY's Socials</center></h3>
+    <div class="row">
+      <div class="column">
+        <a style="text-decoration:none" href="https://www.instagram.com/itzy.all.in.us" target="_blank"><img src="index-image/new-Instagram-logo-png-full-colour-glyph.png" style="width:15%"></a>
+      </div>
+      <div class="column">
+        <a style="text-decoration:none" href="https://twitter.com/ITZYOfficial" target="_blank"><img src="index-image/Twitter_new_X_logo.png" style="width:15%"></a>
+      </div>
+      <div class="column">
+        <a style="text-decoration:none" href="https://www.youtube.com/c/ITZY" target="_blank"><img src="index-image/Youtube_logo.png" style="width:15%"></a>
+      </div>
+      <div class="column">
+        <a style="text-decoration:none" href="https://www.tiktok.com/@itzyofficial" target="_blank"><img src="index-image/TikTok-icon-glyph.png" style="width:15%"></a>
+      </div>
+    </div>
   </footer>
 
   <script src="script.js"></script>
