@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>ITZY Fashion Finds</title>
-    <link rel="stylesheet" href="basic.css" type="text/css">
+    <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
@@ -30,6 +30,13 @@
     }
 
     .style {
+      background-color: rgb(150, 150, 150);
+      width: 18%;
+      padding: 3%;
+      border-radius: 25px;
+    }
+
+    .style1 {
       background-color: rgb(150, 150, 150);
       width: 18%;
       padding: 3%;
@@ -89,6 +96,25 @@
     .dropdown:hover .dropdown-content {display: block;}
 
     .dropdown:hover .dropbtn {background-color: #f4f3ef;}
+
+    @media only screen and (max-width: 1100px) {
+      .style1 {
+        width: 70%;
+        padding: 15%;
+      }
+
+      .style {
+        width: 70%;
+        padding: 15%;
+        margin-bottom: 20px;
+      }
+      
+      .grid {
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 0;
+      }
+    }
   </style>
 </head>
 
@@ -130,7 +156,7 @@
       <div class="style">
         <a style="text-decoration:none" href="yunaairport.html"><h3><center>- Instagram -</center></h3></a>
       </div>
-      <div class="style">
+      <div class="style1">
         <a style="text-decoration:none" href="yunaairport.html"><h3><center>- Street -</center></h3></a>
       </div>
     </div>

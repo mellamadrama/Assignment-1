@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>ITZY Fashion Finds</title>
-    <link rel="stylesheet" href="basic.css" type="text/css">
+    <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
@@ -36,6 +36,7 @@
       border: 2px solid rgb(0, 0, 0);
       width: 50%;
       padding: 20px;
+      margin-left: 20px;
     }
 
     hr {
@@ -105,6 +106,16 @@
       max-width: 100%;
       max-height:100%;
       display: inline-block;
+    }
+    
+    @media only screen and (max-width: 1100px) {
+			.container {
+        flex-direction: column;
+      }
+      .text{
+        width: 90%;
+        margin-left: 0%;
+      }
     }
 
   </style>

@@ -2,7 +2,7 @@
 <html>
 <head>          
     <title>ITZY Fashion Finds Login</title>
-    <link rel="stylesheet" href="basic.css" type="text/css">
+    <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
@@ -52,6 +52,19 @@
 
     header {
       padding: 4%;
+    }
+
+    @media only screen and (max-width: 1100px) {
+      input[type=text], input[type=password], button {
+      width: 100%; 
+      justify-content: center;
+      flex-grow: 0;
+      }
+
+      form {
+        padding-top: 40%;
+        justify-content: center;
+      }
     }
 
   </style>

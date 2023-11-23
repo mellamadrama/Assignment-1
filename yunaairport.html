@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>ITZY Fashion Finds</title>
-    <link rel="stylesheet" href="basic.css" type="text/css">
+    <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
@@ -33,6 +33,12 @@
     }
 
     .column {
+      float: left;
+      width: 288px;
+      padding: 6px;
+    }
+
+    .column1 {
       float: left;
       width: 288px;
       padding: 6px;
@@ -101,6 +107,23 @@
 
     .dropdown:hover .dropbtn {background-color: #f4f3ef;}
 
+    @media only screen and (max-width: 1100px) {
+      .column1 {
+        width: 100%;
+      }
+
+      .column {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      .grid {
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 0;
+      }
+    }
+
   </style>
 </head>
 
@@ -143,7 +166,7 @@
       <div class="column">
         <a style="text-decoration:none" href="yunaairportoutfit.html"><img src="index-image/airport3.jpg" style="width:100%"></a>
       </div>
-      <div class="column">
+      <div class="column1">
         <a style="text-decoration:none" href="yunaairportoutfit.html"><img src="index-image/airport4.jpg" style="width:100%"></a>
       </div>
     </div>
