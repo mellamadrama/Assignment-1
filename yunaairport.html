@@ -23,10 +23,14 @@
       padding-inline: 5%;
     }
 
+    body {
+      margin: 0px;
+    }
+
     .members {
       background-color: rgb(128, 114, 151);
       width: 100%;
-      padding: 0.5%;
+      padding: 0.5% 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -42,6 +46,12 @@
       float: left;
       width: 288px;
       padding: 6px;
+    }
+
+    .row {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
 
     .row::after {
@@ -109,11 +119,11 @@
 
     @media only screen and (max-width: 1100px) {
       .column1 {
-        width: 100%;
+        width: calc(100% - 12px);
       }
 
       .column {
-        width: 100%;
+        width: calc(100% - 12px);
         margin-bottom: 20px;
       }
       
