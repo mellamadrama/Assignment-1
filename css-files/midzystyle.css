@@ -1,17 +1,24 @@
 h1{color: rgb(0, 0, 0);
     font-family: 'Cormorant SC', serif;
+    text-align: center;
   }
   h2{color: rgb(0, 0, 0);
     font-family: 'Cormorant SC', serif;
+    text-align: center;
   }
   h3{color: rgb(0, 0, 0);
     font-family: 'Cormorant SC', serif;
+    text-align: center;
   }
   a{color: rgb(0, 0, 0);
     font-family: 'Cormorant SC', serif;
     padding-inline: 10%;
   }
   nav{
+    text-align: center;
+  }
+
+  section{
     text-align: center;
   }
 
@@ -36,9 +43,13 @@ h1{color: rgb(0, 0, 0);
       margin: auto;
       border: none;
       cursor: pointer;
-      width: 100%;
+      width: 30%;
       font-family: 'Cormorant SC', serif;
   }
+  button:hover {
+    opacity: 0.8;
+  }
+
 
   hr {
     background: black;
