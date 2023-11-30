@@ -3,6 +3,13 @@
 ## General Description
 Hi welcome to my website! This is a website for MIDZYs, ITZY's fandom or anyone interested to search through a catalog of each members. The catagories range from Airport Fashion, all the way to their Stage Oufits.
 
+## Why I chose to make this website, and for who?
+I chose to make this website for fans of ITZY, called MIDZY, as there are fans who want to search for the different outfits worn by the members. 
+
+This website will allow the fans to have one place where they can search for all of ITZY's fashion, instead of having to look all over the internet. This makes it more convinent and easy for them. 
+
+It can also be used by non-fans and anyone ingeneral, if they happen to be interested in fashion.
+
 ## More In-depth Details
 Users will be able to look through the different members and fashion categories to pick their desired outfits.
 
