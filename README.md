@@ -17,9 +17,34 @@ From there they will be able to click on the description of the outfit, be it fo
 
 The homepage also has the links to ITZY's socials like their Instagram, Twitter, Youtube Channel and Tiktok, if users wish to follow them.
 
-## Credits
+## Code Credits
 My hover dropdown ITZY - https://www.w3schools.com/howto/howto_css_dropdown.asp
 
 My ITZY slideshow in homepage - https://www.w3schools.com/howto/howto_js_slideshow.asp
 
 Login Page inspiration - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form_modal
+
+## Images Credit
+Slideshow Images:
+- https://www.koreaboo.com/stories/netizens-idol-itzy-yuna-proportions-body-visuals-pretty/
+- https://www.reddit.com/r/ITZY/comments/w3kikz/220720_itzy_twitter_update_lets_start_the_2nd/
+- https://www.koreaboo.com/lists/itzy-7-coordinated-dance-practice-outfits/
+- https://thekrazemag.com/latest-updates/2023/7/26/how-i-would-style-itzy
+- https://dbkpop.com/mv/itzy-sneakers/
+
+ITZY Members Page:
+- https://www.reddit.com/r/Yeji/comments/15fme9j/230801_yeji_cake_behind_photo/
+- https://www.reddit.com/r/choijisu/comments/15fmgxa/230801_lia_cake_behind_photo/
+- https://www.reddit.com/r/ryujin/comments/15fmiz6/230801_ryujin_cake_behind_photo/
+- https://www.reddit.com/r/chaeryeong/comments/15fmlka/230801_chaeryeong_cake_behind_photo/
+- https://www.reddit.com/r/yuna/comments/15fmo3f/230801_yuna_cake_behind_photo/
+
+Yuna Airport Outfits:
+- https://www.allkpop.com/article/2023/08/itzys-yuna-turns-the-airport-into-a-runway
+- https://k-airportstyle.tumblr.com/post/695998585196740608/yuna-september-21st-2022
+- https://www.koreaboo.com/news/itzy-yuna-netizens-in-awe-perfect-figure-group-us/
+- https://www.pinterest.com/pin/852939616908416757/
+- https://k-airportstyle.tumblr.com/post/706440032982024193/yuna-january-12th-2023
+- https://k-airportstyle.tumblr.com/post/712065736742453248/yuna-march-8th-2023
+- https://inkistyle.com/itzy-yuna-incheon-airport-november-1-2019/
+- https://k-airportstyle.tumblr.com/post/718123924981972992/yuna-may-13th-2023
